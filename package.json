@@ -4,9 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Cameron Greer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
