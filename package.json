@@ -1,25 +1,32 @@
 {
-  "name": "Chromogen-site",
+  "name": "Chromogen-Site",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Cameron Greer",
-  "license": "ISC",
+  "main": "index.js",
   "dependencies": {
     "next": "^9.5.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@types/node": "^14.11.8",
     "@types/react": "^16.9.51",
     "typescript": "^4.0.3"
-  }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtumel123/Chromogen-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtumel123/Chromogen-Site/issues"
+  },
+  "homepage": "https://github.com/rtumel123/Chromogen-Site#readme"
 }

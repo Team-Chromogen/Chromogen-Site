@@ -1,16 +1,18 @@
-import Link from 'next/link';
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Main from '../components/Main';
+import Features from '../components/Features';
+import Team from '../components/Team';
+
 function HomePage() {
   return (
-     <div>
-        <h1>Team Chromogen!</h1>
-        <h2>
-          <Link href="/docs"><a>Docs</a></Link>
-        </h2>
-        <h2>
-          <Link href="/demo"><a>Demo</a></Link>
-        </h2>
-     </div>
+    <div>
+      <Navbar />
+      <Main />
+      <Features />
+      <Team />
+    </div>
   )
 }
 
-export default HomePage
+export default HomePage;
