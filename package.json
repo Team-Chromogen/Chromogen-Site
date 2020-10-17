@@ -1,5 +1,5 @@
 {
-  "name": "Chromogen-site",
+  "name": "chromogen-site",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Cameron Greer",
+  "author": "Cameron Greer, Nicholas Shay, Ryan Tumel, Amy Yee, Jinseon Shin",
   "license": "ISC",
   "dependencies": {
     "next": "^9.5.5",
