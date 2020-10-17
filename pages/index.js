@@ -1,9 +1,8 @@
-import { features } from 'process';
 import React from 'react';
-import Navbar from './Navbar';
-import Main from './Main';
-import Features from './Features';
-import Team from './Team';
+import Navbar from '../components/Navbar';
+import Main from '../components/Main';
+import Features from '../components/Features';
+import Team from '../components/Team';
 
 function HomePage() {
   return (
