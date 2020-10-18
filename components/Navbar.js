@@ -13,8 +13,8 @@ export default function Navbar() {
         <li id={styles.navItem}><a>Team</a></li>
       </ul>
       <ul id={styles.rightNav}>
-          <li id={styles.navItem}><a><AiOutlineGithub /></a></li>
-          <li id={styles.navItem}><a><AiFillChrome /></a></li>
+          <li id={styles.navItem}><a href="https://github.com/open-source-labs/Chromogen" target="_blank"><AiOutlineGithub /></a></li>
+          <li id={styles.navItem}><a href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US" target="_blank"><AiFillChrome /></a></li>
       </ul>
     </nav>
     </IconContext.Provider>
