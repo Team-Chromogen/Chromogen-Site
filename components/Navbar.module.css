@@ -1,0 +1,18 @@
+#navbar {
+}
+
+#logo {
+  width: 50px;
+}
+
+#leftNav {
+  list-style-type: none;
+}
+
+#rightNav {
+  list-style-type: none;
+}
+
+.react-icons {
+  color: yellow
+}
