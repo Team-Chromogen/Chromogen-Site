@@ -1,27 +1,35 @@
 #main {
-  
+  margin-top: 5em;
+  /* left: 2em; */
+  writing-mode: horizontal-tb;
+  inline-size: 400px;
+  block-size: 13em;
+  padding: 150px;
+  /* display: grid; */
+  /* grid-template-columns: 100px 100px 100px; */
+  align-items: end;
+  align-content: end;
+  margin: 1em;
 }
 
 #chromogenheader {
-
+  /* align-content: center; */
+  margin-left: 2em;
+  justify-content: space-between;
 }
 
 #logo {
-  width: 150px;
+  width: 70px;
 }
 
 #description1 {
-
 }
 
 #description2 {
-
 }
 
 #buttons {
-
 }
 
 #links {
-  
 }
