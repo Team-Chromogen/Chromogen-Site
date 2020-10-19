@@ -1,0 +1,25 @@
+#navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%; 
+  margin: auto;
+  top: 0;
+}
+
+#logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+#leftNav {
+  list-style-type: none;
+}
+
+#rightNav {
+  list-style-type: none;
+}
