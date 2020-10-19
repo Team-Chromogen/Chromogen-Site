@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Features.module.css';
+import styles from './css-modules/Features.module.css';
 
 export default function Features() {
   return (
