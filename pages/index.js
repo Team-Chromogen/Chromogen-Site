@@ -1,23 +1,19 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
 import Main from '../components/Main';
 import Features from '../components/Features';
 import Team from '../components/Team';
-import styles from '../components/Navbar.module.css';
+import styles from '../components/css-modules/Navbar.module.css';
 import { AiOutlineGithub, AiFillChrome } from 'react-icons/Ai'
 import { IconContext } from 'react-icons';
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 
 export default class Homepage extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   scrollToTop = () => {
     scroll.scrollToTop();
   };
 
-  
+  /* Navbar component is embedded here */
 
     render() {
       return (
@@ -62,16 +58,3 @@ export default class Homepage extends Component {
       )
     }
 }
-
-// function HomePage() {
-//   return (
-//     <div>
-//       <Navbar />
-//       <Main />
-//       <Features />
-//       <Team />
-//     </div>
-//   )
-// }
-
-// export default HomePage;

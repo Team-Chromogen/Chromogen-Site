@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from './Main.module.css';
+import styles from './css-modules/Main.module.css';
 
 export default function Main() {
   return (
     <section id={styles.main}>
-      {/* add chromogen logo here */}
       <h1 id={styles.chromogenheader} >Chromogen <img src='/chromogen-logo.png' id={styles.logo} alt='Chromogen Logo'></img></h1>
       <h3 id={styles.description1}>UI-driven test generation tool for React developers</h3>
       <h4 id={styles.description2}>An npm package and Chrome dev tool for apps built with Recoil and React Hooks useState</h4>

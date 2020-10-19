@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Team.module.css';
+import styles from './css-modules/Team.module.css';
 import { IconContext } from 'react-icons';
 import { AiOutlineGithub } from 'react-icons/Ai';
 import { GrLinkedin } from 'react-icons/Gr';
