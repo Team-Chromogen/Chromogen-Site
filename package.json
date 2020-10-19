@@ -1,5 +1,5 @@
 {
-  "name": "Chromogen-Site",
+  "name": "chromogen-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-icons": "^3.11.0",
-    "react-scroll": "^1.8.1",
+    "react-scroll": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^14.11.8",
