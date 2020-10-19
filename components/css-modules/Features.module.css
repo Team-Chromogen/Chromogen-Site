@@ -1,7 +1,14 @@
 #features {
-  
+  margin: 0 auto;
+  width: 400px;
+  padding: 40px;
+  background: #419be0;
 }
 
 #featuresList {
   list-style-type: none;
+}
+
+#features img {
+  margin: 0 auto;
 }
