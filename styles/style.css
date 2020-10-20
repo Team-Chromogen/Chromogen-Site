@@ -4,6 +4,9 @@
 
 body {
   background-color: ghostwhite;
-  text-align: center;
   font-family: sans-serif;
+  /* grid-template-rows: 100px 100px 100px; */
+  /* align-items: end;
+  align-content: end; */
+  margin: 1em;
 }

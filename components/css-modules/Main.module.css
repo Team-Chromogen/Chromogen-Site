@@ -1,20 +1,17 @@
-#main {
-  margin-top: 5em;
-  /* left: 2em; */
+.main {
+  /* display: flex; */
   writing-mode: horizontal-tb;
-  inline-size: 400px;
-  block-size: 13em;
+  align-items: flex-end;
+  block-size: 40em;
   padding: 150px;
   /* display: grid; */
   /* grid-template-columns: 100px 100px 100px; */
-  align-items: end;
-  align-content: end;
-  margin: 1em;
+  /* margin: 1em; */
 }
 
 #chromogenheader {
   /* align-content: center; */
-  margin-left: 2em;
+  margin-left: 0;
   justify-content: space-between;
 }
 
@@ -26,6 +23,7 @@
 }
 
 #description2 {
+  inline-size: 25em;
 }
 
 #buttons {

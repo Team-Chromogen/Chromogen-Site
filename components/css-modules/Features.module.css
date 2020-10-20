@@ -1,9 +1,11 @@
 #features {
   margin: 0 auto;
-  margin-top: 25em;
-  width: 400px;
-  padding: 40px;
-  background: #419be0;
+  padding: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: lightcyan;
+  /* block-size: 26em; */
 }
 
 #featuresList {
