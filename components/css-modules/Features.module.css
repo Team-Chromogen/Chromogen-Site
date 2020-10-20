@@ -1,9 +1,13 @@
 #features {
-  margin: 0 auto;
-  padding: 100px;
+  /* margin: 0 auto; */
+  /* padding: 100px; */
   left: 0;
   right: 0;
-  width: 100%;
+  height: 100%;
+  writing-mode: horizontal-tb;
+  align-items: flex-end;
+  block-size: 40em;
+  padding: 150px;
   background-color: lightcyan;
   /* block-size: 26em; */
 }

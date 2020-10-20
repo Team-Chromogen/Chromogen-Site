@@ -1,12 +1,10 @@
 .main {
-  /* display: flex; */
   writing-mode: horizontal-tb;
   align-items: flex-end;
   block-size: 40em;
   padding: 150px;
-  /* display: grid; */
+  display: grid;
   /* grid-template-columns: 100px 100px 100px; */
-  /* margin: 1em; */
 }
 
 #chromogenheader {

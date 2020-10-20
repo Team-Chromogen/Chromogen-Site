@@ -30,6 +30,7 @@ export default class Homepage extends Component {
                   ></img>
                 </a>
               </li>
+              <h1 id={styles.title}> &nbsp;&nbsp; Chromogen &nbsp;&nbsp;</h1>
               <li id={styles.navItem}>
                 <Link
                   activeClass="active"
@@ -39,7 +40,7 @@ export default class Homepage extends Component {
                   offset={-70}
                   duration={500}
                 >
-                  <a href="#">Features</a>
+                  <a href="#"> &nbsp;&nbsp; Features &nbsp;&nbsp;</a>
                 </Link>
               </li>
               <li id={styles.navItem}>
