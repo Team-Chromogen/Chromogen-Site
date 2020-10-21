@@ -1,6 +1,5 @@
 #team {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #698cfe 73%);
+  background: ghostwhite;
 
   text-align: center;
 
@@ -8,15 +7,12 @@
   padding-bottom: 9em;
   height: 100%;
   width: 100%;
-  font-family: "Noto Sans TC", sans-serif;
 }
 
 #teamHeader {
   text-align: center;
-  font-family: "Oxygen Mono", monospace;
-  text-shadow: 6px 5px 6px #436efc;
   font-size: 35pt;
-
+  color: black;
   margin-top: 5px;
 }
 
@@ -25,6 +21,7 @@
   flex-direction: row;
   justify-content: space-around;
   margin-top: 2em;
+  color: black;
 }
 
 #individual {
@@ -49,8 +46,8 @@
 }
 
 #name {
-  font-family: "Oxygen Mono", monospace;
   font-size: 12.5pt;
+  color: black;
 }
 
 #profileLinks {
@@ -64,7 +61,7 @@
 }
 
 #githubLink:hover {
-  box-shadow: 0.5px 0.5px 0.5px #698cfe;
+  
 }
 
 #linkedinLink {
@@ -72,5 +69,5 @@
 }
 
 #linkedinLink:hover {
-  box-shadow: 0.5px 0.5px 0.5px #698cfe;
+  
 }

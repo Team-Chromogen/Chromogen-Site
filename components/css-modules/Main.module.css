@@ -1,7 +1,5 @@
 .main {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #678afe 73%);
-
+  background: ghostwhite;
   block-size: 50em;
   height: 100%;
   width: 100%;
@@ -13,7 +11,6 @@
   align-content: center;
   justify-content: center;
   writing-mode: horizontal-tb;
-  /* align-items: center; */
 }
 
 #mainLeft {
@@ -37,7 +34,6 @@
 
 #logo {
   width: 200px;
-  /* float: right; */
   position: absolute;
   padding-top: 3em;
   display: flex;
@@ -45,9 +41,6 @@
   align-items: flex-end;
   align-items: center;
   align-content: center;
-  /* flex-wrap: wrap; */
-  /* margin-right: 4em; */
-  /* bottom: 15em; */
   right: 0;
   width: 200px;
 }
@@ -56,25 +49,23 @@
   font-size: 40pt;
   margin-left: 0;
   margin-bottom: -3px;
-  font-family: "Oxygen Mono", monospace;
-  text-shadow: 8px 7px 8px #436efc;
+  color: black;
 }
 
 #description1 {
   font-size: 15pt;
-  font-family: "Noto Sans TC", sans-serif;
+  color: black;
 }
 
 #description2 {
   inline-size: 425px;
   font-size: 12pt;
-  font-family: "Noto Sans TC", sans-serif;
+  color: black;
 }
 
 #allButtons {
   float: left;
   padding-top: 0.5em;
-  text-transform: lowercase;
 }
 
 #button {
@@ -86,30 +77,27 @@
   flex-wrap: wrap;
   position: relative;
 
-  width: 9.5em;
+  width: 200px;
   height: 2.2em;
   margin: 10px;
   padding: 20px;
 
-  font-family: "Oxygen Mono", monospace;
-  font-size: 19px;
+  font-size: 15px;
   text-align: center;
-  text-transform: lowercase;
 
-  border: 0.5px solid white;
-  box-shadow: 5px 4px 5px #5d7fed;
+  border: 1.5px solid rgb(104, 104, 104);
+  border-radius: 5px;
 
-  background: #f1f4ff;
+  background: #A7CCED;
+  color: black;
 }
 
 #button:hover {
-  border: 2px solid #5d7fed;
-  box-shadow: 10px 10px 10px #5d7fed;
-  width: 10.2em;
-  height: 2.7em;
-  font-size: 22px;
-  font-weight: bold;
+  background: #93B7BE;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
 #button:active {
   position: relative;
   top: 1px;

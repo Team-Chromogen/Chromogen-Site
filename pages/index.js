@@ -30,8 +30,6 @@ export default class Homepage extends Component {
                   ></img>
                 </a>
               </li>
-
-              <h1 id={styles.title}> &nbsp;Chromogen &nbsp;&nbsp;</h1>
             </ul>
 
             <ul id={styles.rightNav}>

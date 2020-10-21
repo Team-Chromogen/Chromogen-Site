@@ -1,8 +1,7 @@
 #features {
-  background: url(../../images/qbkls.png);
+  background: ghostwhite;
   text-align: center;
 
-  /* margin: 0 auto; */
   padding-top: 6em;
   padding-bottom: 10em;
   height: 100%;
@@ -11,12 +10,9 @@
 #featuresHeader {
   text-align: center;
   color: black;
-  font-family: "Oxygen Mono", monospace;
   font-size: 35pt;
-  text-shadow: 6px 5px 6px #838383;
 
   margin-top: 5px;
-  /* margin-bottom: -10px; */
 }
 
 #slides {
@@ -47,7 +43,6 @@
 
 #slideText {
   color: black;
-  font-family: "Noto Sans TC", sans-serif;
   font-size: 15pt;
   padding-top: 10px;
 }
