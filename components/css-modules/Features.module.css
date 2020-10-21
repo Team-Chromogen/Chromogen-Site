@@ -1,33 +1,53 @@
 #features {
   background: url(../../images/qbkls.png);
-  margin: 0 auto;
   text-align: center;
+
+  /* margin: 0 auto; */
   padding-top: 6em;
-  padding-bottom: 9em;
+  padding-bottom: 10em;
   height: 100%;
   width: 100%;
-  /* border-bottom: inset;
-  border-color: white;
-  border-width: 1px; */
-  /* padding: 150px; */
-
-  /* block-size: 26em; */
 }
 #featuresHeader {
   text-align: center;
   color: black;
   font-family: "Oxygen Mono", monospace;
-  margin-top: 5px;
   font-size: 35pt;
   text-shadow: 6px 5px 6px #838383;
+
+  margin-top: 5px;
+  /* margin-bottom: -10px; */
+}
+
+#slides {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -45px;
+  width: 100%;
+  height: 100%;
 }
 
 #featuresList {
   list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 40%;
 }
 
 #features img {
   margin: 0 auto;
+  justify-content: center;
   align-items: center;
   position: relative;
+  width: 60%;
+  height: 40%;
+}
+
+#slideText {
+  color: black;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 15pt;
+  padding-top: 10px;
 }

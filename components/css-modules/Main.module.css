@@ -1,17 +1,19 @@
 .main {
   background: rgb(255, 255, 255);
   background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #678afe 73%);
-  padding-top: 2em;
-  padding-bottom: 7em;
+
+  block-size: 50em;
   height: 100%;
   width: 100%;
+
+  padding-top: 2em;
+  padding-bottom: 5em;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
   writing-mode: horizontal-tb;
-  align-items: flex-end;
-  block-size: 50em;
-  /* border-bottom: inset;
-  border-color: white;
-  border-width: 1px; */
-  /* padding-bottom: 15em; */
+  /* align-items: center; */
 }
 
 #mainLeft {
@@ -23,13 +25,31 @@
 #mainRight {
   float: right;
   width: 40%;
-  padding-left: 80px;
+  padding-right: 80px;
   padding-top: 3em;
-  padding-bottom: 40px;
   margin-right: 5em;
   margin-top: 130px;
+  display: flex;
   align-content: center;
-  /* position: absolute; */
+  justify-content: center;
+  position: relative;
+}
+
+#logo {
+  width: 200px;
+  /* float: right; */
+  position: absolute;
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-items: center;
+  align-content: center;
+  /* flex-wrap: wrap; */
+  /* margin-right: 4em; */
+  /* bottom: 15em; */
+  right: 0;
+  width: 200px;
 }
 
 #fontHeader {
@@ -40,25 +60,13 @@
   text-shadow: 8px 7px 8px #436efc;
 }
 
-#logo {
-  float: right;
-  position: relative;
-  padding-top: 3em;
-  width: 200px;
-  align-content: center;
-  margin-right: 4em;
-  /* bottom: 15em; */
-  right: 0;
-  width: 200px;
-}
-
 #description1 {
   font-size: 15pt;
   font-family: "Noto Sans TC", sans-serif;
 }
 
 #description2 {
-  inline-size: 420px;
+  inline-size: 425px;
   font-size: 12pt;
   font-family: "Noto Sans TC", sans-serif;
 }

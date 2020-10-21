@@ -12,12 +12,11 @@ export default function Main() {
           UI-driven test generation tool for React developers
         </h3>
         <h4 id={styles.description2}>
-          An npm package and Chrome dev tool for apps built with Recoil and
-          React Hooks useState Jest unit-test generation tool for Recoil
-          selectors. It captures state changes during user interaction and
-          auto-generates corresponding test suites. and with one click you'll
-          download a ready-to-run Jest test file.
+          A Jest unit-test generation tool for applications built with Recoil.js
+          and React Hooks. Capture your application's state changes during your
+          interaction and auto-generate corresponding test suites.
         </h4>
+
         <div id={styles.allButtons}>
           <a href="https://www.npmjs.com/package/chromogen" target="_blank">
             <button type="button" id={styles.button}>

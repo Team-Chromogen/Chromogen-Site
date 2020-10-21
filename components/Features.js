@@ -20,21 +20,35 @@ export default class Features extends Component {
           <br></br>
           <br></br>
         </div>
-        <Slider {...settings}>
-          {/* <h1>Features</h1> */}
-          <div>
-            <img src="http://placekitten.com/g/400/200" />
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" />
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" />
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" />
-          </div>
-        </Slider>
+        <div id={styles.slides}>
+          <Slider {...settings} id={styles.featuresList}>
+            {/* <h1>Features</h1> */}
+            <div>
+              <img src="https://files.slack.com/files-pri/T015Z0WPH0D-F01D22P2LDR/c17b5869480026965fa7c9a7657e0470.gif" />
+              <h3 id={styles.slideText}>
+                Captures state changes for Recoil.js selectors
+              </h3>
+            </div>
+            <div>
+              <img src="https://files.slack.com/files-pri/T015Z0WPH0D-F01D23T589H/test-output-1.png" />
+              <h3 id={styles.slideText}>
+                Checks the test suite created for an application
+              </h3>
+            </div>
+            <div>
+              <img src="https://files.slack.com/files-pri/T015Z0WPH0D-F01D1TDBL4S/dev_tool.gif" />
+              <h3 id={styles.slideText}>
+                Exists as a Chrome Extension for easy accessibility
+              </h3>
+            </div>
+            <div>
+              <img src="https://files.slack.com/files-pri/T015Z0WPH0D-F01CYTGCQHK/hooks.gif" />
+              <h3 id={styles.slideText}>
+                Captures state changes for React Hooks useState hooks
+              </h3>
+            </div>
+          </Slider>
+        </div>
       </section>
     );
   }
