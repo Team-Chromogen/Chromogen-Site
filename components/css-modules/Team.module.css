@@ -1,10 +1,6 @@
 #team {
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    328deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(105, 140, 254, 1) 73%
-  );
+  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #698cfe 73%);
   text-align: center;
   padding-top: 7em;
   padding-bottom: 9em;
@@ -18,6 +14,7 @@
   margin-top: 5px;
   font-size: 35pt;
   font-family: "Oxygen Mono", monospace;
+  text-shadow: 6px 5px 6px #436efc;
 }
 
 #teamProfiles {
@@ -49,7 +46,8 @@
 }
 
 #name {
-  color: black;
+  font-family: "Oxygen Mono", monospace;
+  font-size: 12.5pt;
 }
 
 #profileLinks {
@@ -58,13 +56,18 @@
 #profileLinks:hover {
 }
 
-/* #hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
-} */
+#githubLink {
+  padding: 3px;
+}
+
+#githubLink:hover {
+  box-shadow: 1.5px 1.5px 1.5px #698cfe;
+}
+
+#linkedinLink {
+  padding: 3px;
+}
+
+#linkedinLink:hover {
+  box-shadow: 1.5px 1.5px 1.5px #698cfe;
+}

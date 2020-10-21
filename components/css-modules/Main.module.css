@@ -1,10 +1,13 @@
 .main {
   background: rgb(255, 255, 255);
   background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #678afe 73%);
+  padding-top: 2em;
+  padding-bottom: 7em;
+  height: 100%;
   width: 100%;
   writing-mode: horizontal-tb;
   align-items: flex-end;
-  block-size: 45em;
+  block-size: 50em;
   /* border-bottom: inset;
   border-color: white;
   border-width: 1px; */
@@ -14,14 +17,14 @@
 #mainLeft {
   float: left;
   padding-left: 80px;
-  padding-top: 8em;
+  padding-top: 6em;
 }
 
 #mainRight {
   float: right;
   width: 40%;
   padding-left: 80px;
-  padding-top: 70px;
+  padding-top: 3em;
   padding-bottom: 40px;
   margin-right: 5em;
   margin-top: 130px;
@@ -32,9 +35,9 @@
 #fontHeader {
   font-size: 40pt;
   margin-left: 0;
-  margin-bottom: -10px;
+  margin-bottom: -3px;
   font-family: "Oxygen Mono", monospace;
-  text-shadow: 0.25px 0.25px 0.5px #606060;
+  text-shadow: 8px 7px 8px #436efc;
 }
 
 #logo {
@@ -61,32 +64,43 @@
 }
 
 #allButtons {
-  padding-top: 2em;
+  float: left;
+  padding-top: 0.5em;
+  text-transform: lowercase;
 }
 
 #button {
   cursor: pointer;
-  height: 40px;
-  width: 170px;
-  box-shadow: inset 0px 0px 12px 0px #dcecfb;
-  background: linear-gradient(to bottom, #7cc2ce 5%, #7fc7e8 100%);
-  background-color: #3ea7ba;
-  border-radius: 3px;
-  border: 1px solid #dbf1ff;
-  display: inline-block;
-  grid-template-columns: auto;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 12px;
-  font-weight: bold;
-  /* padding: 17px 22px; */
-  text-shadow: 1px 1px 0px #528ecc;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
+  width: 9.5em;
+  height: 2.2em;
+  margin: 10px;
+  padding: 20px;
+
+  font-family: "Oxygen Mono", monospace;
+  font-size: 19px;
+  text-align: center;
+  text-transform: lowercase;
+
+  border: 0.5px solid white;
+  box-shadow: 5px 4px 5px #5d7fed;
+
+  background: #f1f4ff;
 }
+
 #button:hover {
-  background: linear-gradient(to bottom, #7fc7e8 5%, #93ebfa 100%);
-  background-color: #7fc7e8;
+  border: 2px solid #5d7fed;
+  box-shadow: 10px 10px 10px #5d7fed;
+  width: 10.2em;
+  height: 2.7em;
+  font-size: 22px;
+  font-weight: bold;
 }
 #button:active {
   position: relative;

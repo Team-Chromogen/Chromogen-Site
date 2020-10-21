@@ -34,7 +34,10 @@ export default function Main() {
             </button>
           </a>
 
-          <a href="https://www.npmjs.com/package/chromogen" target="_blank">
+          <a
+            href="https://github.com/open-source-labs/Chromogen"
+            target="_blank"
+          >
             <button type="button" id={styles.button}>
               GitHub
             </button>
