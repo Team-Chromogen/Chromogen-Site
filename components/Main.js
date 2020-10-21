@@ -24,7 +24,7 @@ export default function Main() {
               NPM Package
             </button>
           </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
+
           <a
             href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US"
             target="_blank"
@@ -33,7 +33,7 @@ export default function Main() {
               Chrome Extension
             </button>
           </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
+
           <a href="https://www.npmjs.com/package/chromogen" target="_blank">
             <button type="button" id={styles.button}>
               GitHub

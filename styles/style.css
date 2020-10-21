@@ -1,12 +1,11 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: "Palanquin", sans-serif;
 }
 
 body {
-  background-color: ghostwhite;
   /* text-decoration: none; */
   /* grid-template-rows: 100px 100px 100px; */
   /* align-items: end;

@@ -1,20 +1,28 @@
 .main {
-  display: ;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #678afe 73%);
+  width: 100%;
   writing-mode: horizontal-tb;
   align-items: flex-end;
   block-size: 45em;
-  padding-left: 80px;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  /* border-bottom: inset;
+  border-color: white;
+  border-width: 1px; */
+  /* padding-bottom: 15em; */
 }
 
 #mainLeft {
   float: left;
+  padding-left: 80px;
+  padding-top: 8em;
 }
 
 #mainRight {
   float: right;
   width: 40%;
+  padding-left: 80px;
+  padding-top: 70px;
+  padding-bottom: 40px;
   margin-right: 5em;
   margin-top: 130px;
   align-content: center;
@@ -22,14 +30,17 @@
 }
 
 #fontHeader {
-  font-size: 50pt;
+  font-size: 40pt;
   margin-left: 0;
   margin-bottom: -10px;
+  font-family: "Oxygen Mono", monospace;
+  text-shadow: 0.25px 0.25px 0.5px #606060;
 }
 
 #logo {
   float: right;
   position: relative;
+  padding-top: 3em;
   width: 200px;
   align-content: center;
   margin-right: 4em;
@@ -39,18 +50,45 @@
 }
 
 #description1 {
-  font-size: 18pt;
+  font-size: 15pt;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 #description2 {
   inline-size: 420px;
-  font-size: 14pt;
+  font-size: 12pt;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 #allButtons {
-  cursor: pointer;
+  padding-top: 2em;
 }
 
 #button {
   cursor: pointer;
+  height: 40px;
+  width: 170px;
+  box-shadow: inset 0px 0px 12px 0px #dcecfb;
+  background: linear-gradient(to bottom, #7cc2ce 5%, #7fc7e8 100%);
+  background-color: #3ea7ba;
+  border-radius: 3px;
+  border: 1px solid #dbf1ff;
+  display: inline-block;
+  grid-template-columns: auto;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  /* padding: 17px 22px; */
+  text-shadow: 1px 1px 0px #528ecc;
+  margin-bottom: 10px;
+}
+#button:hover {
+  background: linear-gradient(to bottom, #7fc7e8 5%, #93ebfa 100%);
+  background-color: #7fc7e8;
+}
+#button:active {
+  position: relative;
+  top: 1px;
 }

@@ -1,6 +1,15 @@
 #navbar {
-  background-color: #f1ffff;
-  font-family: "Miriam Libre", sans-serif;
+  background: url(../../images/qbkls.png);
+  background-color: white;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(105, 142, 255, 1) 69%
+  ); */
+  /* border-bottom: solid;
+  border-color: white;
+  border-width: 1px; */
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -8,12 +17,12 @@
   padding: 0px;
   overflow: hidden;
   z-index: 1;
-  width: 100%;
+
   margin: auto;
   top: 0;
-  left: 0;
-  right: 0;
-  height: 75px;
+  left: 7px;
+  right: 7px;
+  height: 70px;
 }
 
 #logo {
@@ -26,6 +35,8 @@
 #title {
   font-size: 24pt;
   font-weight: bold;
+  color: black;
+  text-shadow: 0.5px 0.5px 1px #606060;
 }
 
 #leftNav {
@@ -40,16 +51,19 @@
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  margin-right: 4em;
+  margin-right: 5em;
 }
 
 #navItem {
-  font-size: 15pt;
+  font-size: 14pt;
+  font-family: "Oxygen Mono", monospace;
+  color: black;
+  text-shadow: 0.5px 0.5px 1px #606060;
 }
 
 #navItem:hover {
   font-style: italic;
-  color: #8e8e8e;
+  color: #7c7c7c;
 }
 
 #features {

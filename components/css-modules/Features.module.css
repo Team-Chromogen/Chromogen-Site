@@ -1,21 +1,25 @@
 #features {
-  background-color: #f1ffff;
+  background: url(../../images/qbkls.png);
   margin: 0 auto;
-  padding-top: 50px;
-  left: 0;
-  right: 0;
+  text-align: center;
+  padding-top: 6em;
+  padding-bottom: 9em;
   height: 100%;
-  writing-mode: horizontal-tb;
-  align-items: flex-end;
-  block-size: 40em;
+  width: 100%;
+  /* border-bottom: inset;
+  border-color: white;
+  border-width: 1px; */
   /* padding: 150px; */
 
   /* block-size: 26em; */
 }
 #featuresHeader {
   text-align: center;
+  color: black;
+  font-family: "Oxygen Mono", monospace;
   margin-top: 5px;
   font-size: 35pt;
+  text-shadow: 0.25px 0.25px 0.5px #606060;
 }
 
 #featuresList {
