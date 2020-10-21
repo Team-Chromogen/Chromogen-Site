@@ -20,7 +20,7 @@ export default class Homepage extends Component {
         <IconContext.Provider value={{ size: "50px" }}>
           <nav id={styles.navbar}>
             <ul id={styles.leftNav}>
-              <li id={styles.navItem}>
+              <li>
                 <a>
                   <img
                     src="/chromogen-logo.png"
@@ -30,8 +30,12 @@ export default class Homepage extends Component {
                   ></img>
                 </a>
               </li>
-              <h1 id={styles.title}> &nbsp;&nbsp; Chromogen &nbsp;&nbsp;</h1>
-              <li id={styles.navItem}>
+
+              <h1 id={styles.title}> &nbsp;Chromogen &nbsp;&nbsp;</h1>
+            </ul>
+
+            <ul id={styles.rightNav}>
+              <li>
                 <Link
                   activeClass="active"
                   to="features"
@@ -40,10 +44,12 @@ export default class Homepage extends Component {
                   offset={-70}
                   duration={500}
                 >
-                  <a href="#"> &nbsp;&nbsp; Features &nbsp;&nbsp;</a>
+                  <a href="#" id={styles.navItem}>
+                    Features &nbsp;&nbsp;
+                  </a>
                 </Link>
               </li>
-              <li id={styles.navItem}>
+              <li>
                 <Link
                   activeClass="active"
                   to="team"
@@ -52,26 +58,10 @@ export default class Homepage extends Component {
                   offset={-70}
                   duration={500}
                 >
-                  <a href="#">Team</a>
+                  <a href="#" id={styles.navItem}>
+                    Team
+                  </a>
                 </Link>
-              </li>
-            </ul>
-            <ul id={styles.rightNav}>
-              <li id={styles.navItem}>
-                <a
-                  href="https://github.com/open-source-labs/Chromogen"
-                  target="_blank"
-                >
-                  <AiOutlineGithub />
-                </a>
-              </li>
-              <li id={styles.navItem}>
-                <a
-                  href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US"
-                  target="_blank"
-                >
-                  <AiFillChrome />
-                </a>
               </li>
             </ul>
           </nav>
@@ -87,3 +77,21 @@ export default class Homepage extends Component {
     );
   }
 }
+
+/*
+<li id={styles.navItem}>
+<a
+  href="https://github.com/open-source-labs/Chromogen"
+  target="_blank"
+>
+  <AiOutlineGithub />
+</a>
+</li>
+<li id={styles.navItem}>
+<a
+  href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US"
+  target="_blank"
+>
+{<AiFillChrome />}
+</a>
+</li>*/

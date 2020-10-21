@@ -1,31 +1,56 @@
 .main {
+  display: ;
   writing-mode: horizontal-tb;
   align-items: flex-end;
-  block-size: 40em;
-  padding: 150px;
-  display: grid;
-  /* grid-template-columns: 100px 100px 100px; */
+  block-size: 45em;
+  padding-left: 80px;
+  padding-top: 70px;
+  padding-bottom: 40px;
 }
 
-#chromogenheader {
-  /* align-content: center; */
+#mainLeft {
+  float: left;
+}
+
+#mainRight {
+  float: right;
+  width: 40%;
+  margin-right: 5em;
+  margin-top: 130px;
+  align-content: center;
+  /* position: absolute; */
+}
+
+#fontHeader {
+  font-size: 50pt;
   margin-left: 0;
-  justify-content: space-between;
+  margin-bottom: -10px;
 }
 
 #logo {
-  width: 70px;
+  float: right;
+  position: relative;
+  width: 200px;
+  align-content: center;
+  margin-right: 4em;
+  /* bottom: 15em; */
+  right: 0;
+  width: 200px;
 }
 
 #description1 {
+  font-size: 18pt;
 }
 
 #description2 {
-  inline-size: 25em;
+  inline-size: 420px;
+  font-size: 14pt;
 }
 
-#buttons {
+#allButtons {
+  cursor: pointer;
 }
 
-#links {
+#button {
+  cursor: pointer;
 }

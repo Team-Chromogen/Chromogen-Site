@@ -15,6 +15,11 @@ export default class Features extends Component {
     };
     return (
       <section id={styles.features}>
+        <div>
+          <h1 id={styles.featuresHeader}>f e a t u r e s</h1>
+          <br></br>
+          <br></br>
+        </div>
         <Slider {...settings}>
           {/* <h1>Features</h1> */}
           <div>

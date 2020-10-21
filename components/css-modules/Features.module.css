@@ -1,15 +1,21 @@
 #features {
-  /* margin: 0 auto; */
-  /* padding: 100px; */
+  background-color: #f1ffff;
+  margin: 0 auto;
+  padding-top: 50px;
   left: 0;
   right: 0;
   height: 100%;
   writing-mode: horizontal-tb;
   align-items: flex-end;
   block-size: 40em;
-  padding: 150px;
-  background-color: lightcyan;
+  /* padding: 150px; */
+
   /* block-size: 26em; */
+}
+#featuresHeader {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 35pt;
 }
 
 #featuresList {
@@ -18,4 +24,6 @@
 
 #features img {
   margin: 0 auto;
+  align-items: center;
+  position: relative;
 }

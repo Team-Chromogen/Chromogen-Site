@@ -1,5 +1,6 @@
 #navbar {
-  background-color: #f1f1f1;
+  background-color: #f1ffff;
+  font-family: "Miriam Libre", sans-serif;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -12,15 +13,19 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 50px;
+  height: 75px;
 }
 
 #logo {
   display: flex;
   width: 40px;
-  cursor: pointer;
   position: left;
   left: 0;
+}
+
+#title {
+  font-size: 24pt;
+  font-weight: bold;
 }
 
 #leftNav {
@@ -28,15 +33,23 @@
   display: flex;
   justify-content: flex-between;
   align-items: center;
+  margin-left: 2.5em;
 }
 
 #rightNav {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  margin-right: 4em;
 }
 
 #navItem {
+  font-size: 15pt;
+}
+
+#navItem:hover {
+  font-style: italic;
+  color: #8e8e8e;
 }
 
 #features {
