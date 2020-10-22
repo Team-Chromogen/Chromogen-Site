@@ -1,18 +1,12 @@
 #navbar {
-  background-color: #484949;
+  background-color: #383F51;
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
   overflow: hidden;
   z-index: 1;
-
-  margin: auto;
-  top: 0;
-  left: 7px;
-  right: 7px;
-  height: 75px;
+  width: 100%;
 }
 
 #logo {
@@ -20,6 +14,7 @@
   width: 40px;
   position: left;
   left: 0;
+  cursor: pointer;
 }
 
 #leftNav {
@@ -35,11 +30,13 @@
   display: flex;
   justify-content: space-between;
   margin-right: 5em;
+  word-spacing: 20px;
 }
 
 #navItem {
   font-size: 14pt;
   color: white;
+  transition: 0.3s;
 }
 
 #navItem:hover {

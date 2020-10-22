@@ -3,7 +3,6 @@ import Main from "../components/Main";
 import Features from "../components/Features";
 import Team from "../components/Team";
 import styles from "../components/css-modules/Navbar.module.css";
-import { AiOutlineGithub, AiFillChrome } from "react-icons/Ai";
 import { IconContext } from "react-icons";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 
@@ -23,7 +22,7 @@ export default class Homepage extends Component {
               <li>
                 <a>
                   <img
-                    src="/chromogen-logo.png"
+                    src="/chromogen-logo-white.png"
                     id={styles.logo}
                     alt="Chromogen Logo"
                     onClick={this.scrollToTop}

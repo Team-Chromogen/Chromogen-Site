@@ -1,11 +1,11 @@
 #features {
-  background: ghostwhite;
-  text-align: center;
+  background-color: ghostwhite;
+  margin: 0 auto;
 
   padding-top: 6em;
   padding-bottom: 10em;
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 #featuresHeader {
   text-align: center;
@@ -45,4 +45,9 @@
   color: black;
   font-size: 15pt;
   padding-top: 10px;
+  text-align: center;
+}
+
+#slides div img {
+  width: 80%;
 }

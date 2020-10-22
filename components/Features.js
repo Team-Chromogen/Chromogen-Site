@@ -24,19 +24,19 @@ export default class Features extends Component {
           <Slider {...settings} id={styles.featuresList}>
             {/* <h1>Features</h1> */}
             <div>
-              <img src="devToolDemo.gif" />
+              <img src="1st.gif" />
               <h3 id={styles.slideText}>
                 Captures state changes for Recoil.js selectors
               </h3>
             </div>
             <div>
-              <img src="" />
+              <img src="test-output-1.png" />
               <h3 id={styles.slideText}>
                 Checks the test suite created for an application
               </h3>
             </div>
             <div>
-              <img src="" />
+              <img src="devToolDemo.gif" />
               <h3 id={styles.slideText}>
                 Exists as a Chrome Extension for easy accessibility
               </h3>
