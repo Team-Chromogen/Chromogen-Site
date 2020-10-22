@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./css-modules/Team.module.css";
 import { IconContext } from "react-icons";
-import { AiOutlineGithub } from "react-icons/Ai";
-import { GrLinkedin } from "react-icons/Gr";
+import { AiOutlineGithub } from "react-icons/ai";
+import { GrLinkedin } from "react-icons/gr";
 
 export default function Team() {
   return (
