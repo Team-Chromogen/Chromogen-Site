@@ -8,7 +8,7 @@
   text-align: center;
   background: linear-gradient(-45deg, #7400B8, #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #80FFDB );
 	background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 9s ease infinite;
   /* #ee7752, #e73c7e, #23a6d5, #23d5ab */
 }
 
