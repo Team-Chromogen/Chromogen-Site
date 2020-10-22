@@ -1,37 +1,76 @@
 #team {
-  background: transparent;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #698cfe 73%);
+
   text-align: center;
-  margin-top: 5em;
-  margin-bottom: 10em;
-  bottom: 10px;
+
+  padding-top: 7em;
+  padding-bottom: 9em;
+  height: 100%;
+  width: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#teamHeader {
+  text-align: center;
+  font-family: "Oxygen Mono", monospace;
+  text-shadow: 6px 5px 6px #436efc;
+  font-size: 35pt;
+
+  margin-top: 5px;
 }
 
 #teamProfiles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 2em
+  margin-top: 2em;
 }
 
 #individual {
-
 }
 
 #profileImage {
   border-radius: 50%;
-    height: 10em;
-    width: 10em;
-    margin-bottom: 1em;
-    z-index: 2;
-    box-shadow: 0 0 0 3px rgba(0,0,0,.2);
+  height: 10em;
+  width: 10em;
+  margin-bottom: 1em;
+  z-index: 2;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+#profileImage:hover {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  margin-bottom: 1em;
+  z-index: 2;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+#name {
+  font-family: "Oxygen Mono", monospace;
+  font-size: 12.5pt;
 }
 
 #profileLinks {
-
 }
 
-#hr {
-  border : 0;
-  height: 1px; 
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+#profileLinks:hover {
+}
+
+#githubLink {
+  padding: 3px;
+}
+
+#githubLink:hover {
+  box-shadow: 0.5px 0.5px 0.5px #698cfe;
+}
+
+#linkedinLink {
+  padding: 3px;
+}
+
+#linkedinLink:hover {
+  box-shadow: 0.5px 0.5px 0.5px #698cfe;
 }
