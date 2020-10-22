@@ -4,9 +4,13 @@ import styles from "./css-modules/Main.module.css";
 export default function Main() {
   return (
     <section className={styles.main}>
-      <div id={styles.mainLeft}>
         <div id={styles.header}>
-          <h1 id={styles.fontHeader}>Chromogen &nbsp;</h1>
+          <div>
+            <h1 id={styles.fontHeader}>Chromogen</h1>
+          </div>
+          <div>
+            <img src="/chromogen-logo.png" id={styles.logo} alt="Chromogen Logo"></img>
+          </div>
         </div>
         <h3 id={styles.description1}>
           UI-driven test generation tool for React developers
@@ -42,14 +46,6 @@ export default function Main() {
             </button>
           </a>
         </div>
-      </div>
-      <div id={styles.mainRight}>
-        <img
-          src="/chromogen-logo.png"
-          id={styles.logo}
-          alt="Chromogen Logo"
-        ></img>
-      </div>
     </section>
   );
 }

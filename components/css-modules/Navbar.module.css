@@ -1,28 +1,12 @@
 #navbar {
-  background: url(../../images/qbkls.png);
-  background-color: white;
-  /* background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(105, 142, 255, 1) 69%
-  ); */
-  /* border-bottom: solid;
-  border-color: white;
-  border-width: 1px; */
+  background-color:#383F51;
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
   overflow: hidden;
   z-index: 1;
-
-  margin: auto;
-  top: 0;
-  left: 7px;
-  right: 7px;
-  height: 75px;
+  width: 100%;
 }
 
 #logo {
@@ -30,13 +14,7 @@
   width: 40px;
   position: left;
   left: 0;
-}
-
-#title {
-  font-size: 24pt;
-  font-weight: bold;
-  color: black;
-  text-shadow: 2px 1px 2px #b6b6b6;
+  cursor: pointer;
 }
 
 #leftNav {
@@ -44,7 +22,7 @@
   display: flex;
   justify-content: flex-between;
   align-items: center;
-  margin-left: 2.5em;
+  margin-left: 2em;
 }
 
 #rightNav {
@@ -52,19 +30,21 @@
   display: flex;
   justify-content: space-between;
   margin-right: 5em;
+  word-spacing: 9px;
 }
 
 #navItem {
   font-size: 14pt;
-  font-family: "Oxygen Mono", monospace;
-  color: black;
-  text-shadow: 0.5px 0.5px 1px #606060;
+  color: white;
+  transition: 0.3s;
 }
 
 #navItem:hover {
-  font-style: italic;
-  color: #7c7c7c;
+  color: #84A9C0;
 }
 
-#features {
+#hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #383F51, rgba(0, 0, 0, 0));
 }
