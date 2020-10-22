@@ -75,21 +75,3 @@ export default class Homepage extends Component {
     );
   }
 }
-
-/*
-<li id={styles.navItem}>
-<a
-  href="https://github.com/open-source-labs/Chromogen"
-  target="_blank"
->
-  <AiOutlineGithub />
-</a>
-</li>
-<li id={styles.navItem}>
-<a
-  href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US"
-  target="_blank"
->
-{<AiFillChrome />}
-</a>
-</li>*/
