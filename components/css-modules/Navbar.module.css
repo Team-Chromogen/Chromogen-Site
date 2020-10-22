@@ -1,5 +1,5 @@
 #navbar {
-  background-color: #383F51;
+  background-color:#383F51;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -22,7 +22,7 @@
   display: flex;
   justify-content: flex-between;
   align-items: center;
-  margin-left: 2.5em;
+  margin-left: 2em;
 }
 
 #rightNav {
@@ -30,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   margin-right: 5em;
-  word-spacing: 20px;
+  word-spacing: 9px;
 }
 
 #navItem {
@@ -43,5 +43,8 @@
   color: #84A9C0;
 }
 
-#features {
+#hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #383F51, rgba(0, 0, 0, 0));
 }

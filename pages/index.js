@@ -67,6 +67,7 @@ export default class Homepage extends Component {
         <Element id={styles.features} name="features">
           <Features />
         </Element>
+        <hr id={styles.hr}></hr>
         <Element id={styles.team} name="team">
           <Team />
         </Element>

@@ -1,12 +1,28 @@
 .main {
-  background: ghostwhite;
+  /* background: ghostwhite; */
   block-size: 50em;
   height: 100%;
   width: 100%;
 
   padding-top: 5em;
-  padding-bottom: 5em;
+  padding-bottom: 15em;
   text-align: center;
+  background: linear-gradient(-45deg, #7400B8, #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #80FFDB );
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /* #ee7752, #e73c7e, #23a6d5, #23d5ab */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+  }
 }
 
 #header {
@@ -29,13 +45,13 @@
 
 #description1 {
   font-size: 22pt;
-  color: black;
+  color: #383F51;
   margin-top: -30px;
 }
 
 #description2 {
   font-size: 15pt;
-  color: black;
+  color: #383F51;
   width: 30%;
   margin: 0 auto;
   line-height: 30px;
@@ -68,7 +84,7 @@
   background: ghostwhite;
   cursor: pointer;
   transition: 0.3s;
-  color: #a7e1f7;
+  color: #176f85;
   border: 2px solid #9BD1E5;
 }
 

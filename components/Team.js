@@ -18,11 +18,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Connor Rose Delisle</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/connorrose" id={styles.githubLink}>
+              <a href="https://github.com/connorrose" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/connorrosedelisle"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -38,12 +39,14 @@ export default function Team() {
             <div id={styles.profileLinks}>
               <a
                 href="https://github.com/michellebholland"
+                target="_blank"
                 id={styles.githubLink}
               >
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/michellebholland"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -57,11 +60,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Andy Wang</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/andywang23" id={styles.githubLink}>
+              <a href="https://github.com/andywang23" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/andy-wang23/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -75,10 +79,10 @@ export default function Team() {
             />
             <h3 id={styles.name}>Jim Chen</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/chenchingk" id={styles.githubLink}>
+              <a href="https://github.com/chenchingk" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
-              <a href="" id={styles.linkedinLink}>
+              <a href="" id={styles.linkedinLink} target="_blank">
                 <GrLinkedin />
               </a>
               <br></br>
@@ -95,11 +99,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Nicholas Shay</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/nicholasjs" id={styles.githubLink}>
+              <a href="https://github.com/nicholasjs" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/nicholasjs/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -113,11 +118,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Jinseon Shin</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/wlstjs" id={styles.githubLink}>
+              <a href="https://github.com/wlstjs" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/jinseonshin/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -131,11 +137,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Amy Yee</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/amyy98" id={styles.githubLink}>
+              <a href="https://github.com/amyy98" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/amyyee98/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -149,11 +156,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Cameron Greer</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/cgreer011" id={styles.githubLink}>
+              <a href="https://github.com/cgreer011" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/cameron-greer/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />
@@ -167,11 +175,12 @@ export default function Team() {
             />
             <h3 id={styles.name}>Ryan Tumel</h3>
             <div id={styles.profileLinks}>
-              <a href="https://github.com/rtumel123" id={styles.githubLink}>
+              <a href="https://github.com/rtumel123" target="_blank" id={styles.githubLink}>
                 <AiOutlineGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/ryan-tumel-6a92791a0/"
+                target="_blank"
                 id={styles.linkedinLink}
               >
                 <GrLinkedin />

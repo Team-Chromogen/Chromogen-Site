@@ -11,8 +11,7 @@
   text-align: center;
   color: black;
   font-size: 35pt;
-
-  margin-top: 5px;
+  margin-top: -30px;
 }
 
 #slides {
@@ -42,12 +41,8 @@
 }
 
 #slideText {
-  color: black;
-  font-size: 15pt;
+  color: #636363;
+  font-size: 17pt;
   padding-top: 10px;
   text-align: center;
-}
-
-#slides div img {
-  width: 80%;
 }

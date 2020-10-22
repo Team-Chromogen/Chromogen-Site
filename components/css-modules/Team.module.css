@@ -3,28 +3,25 @@
 
   text-align: center;
 
-  padding-top: 7em;
-  padding-bottom: 9em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   height: 100%;
-  width: 100%;
+  width: 75%;
+  margin: 0 auto;
 }
 
 #teamHeader {
   text-align: center;
   font-size: 35pt;
   color: black;
-  margin-top: 5px;
 }
 
 #teamProfiles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 2em;
+  padding: 30px;
   color: black;
-}
-
-#individual {
 }
 
 #profileImage {
@@ -46,8 +43,9 @@
 }
 
 #name {
-  font-size: 12.5pt;
+  font-size: 14pt;
   color: black;
+  font-family: "Inter";
 }
 
 #profileLinks {

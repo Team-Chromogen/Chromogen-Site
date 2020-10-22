@@ -16,7 +16,7 @@ export default class Features extends Component {
     return (
       <section id={styles.features}>
         <div>
-          <h1 id={styles.featuresHeader}> Features </h1>
+          <h1 id={styles.featuresHeader}>Features</h1>
           <br></br>
           <br></br>
         </div>
