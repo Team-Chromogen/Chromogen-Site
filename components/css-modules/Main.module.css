@@ -1,115 +1,92 @@
 .main {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(328deg, rgba(255, 255, 255, 1) 0%, #678afe 73%);
-
   block-size: 50em;
   height: 100%;
   width: 100%;
 
-  padding-top: 2em;
-  padding-bottom: 5em;
-
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  writing-mode: horizontal-tb;
-  /* align-items: center; */
+  padding-top: 5em;
+  padding-bottom: 15em;
+  text-align: center;
+  background: linear-gradient(-45deg, #7400B8, #6930C3, #5E60CE, #5390D9, #4EA8DE, #48BFE3, #80FFDB );
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  /* #ee7752, #e73c7e, #23a6d5, #23d5ab */
 }
 
-#mainLeft {
-  float: left;
-  padding-left: 80px;
-  padding-top: 6em;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+  }
 }
 
-#mainRight {
-  float: right;
-  width: 40%;
-  padding-right: 80px;
-  padding-top: 3em;
-  margin-right: 5em;
-  margin-top: 130px;
+#header {
   display: flex;
-  align-content: center;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  position: relative;
+  margin-top: 100px;
 }
 
 #logo {
-  width: 200px;
-  /* float: right; */
-  position: absolute;
-  padding-top: 3em;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  align-items: center;
-  align-content: center;
-  /* flex-wrap: wrap; */
-  /* margin-right: 4em; */
-  /* bottom: 15em; */
-  right: 0;
-  width: 200px;
+  width: 150px;
 }
 
 #fontHeader {
-  font-size: 40pt;
-  margin-left: 0;
-  margin-bottom: -3px;
-  font-family: "Oxygen Mono", monospace;
-  text-shadow: 8px 7px 8px #436efc;
+  font-size: 100pt;
+  color: black;
+  font-weight: 800;
 }
 
 #description1 {
-  font-size: 15pt;
-  font-family: "Noto Sans TC", sans-serif;
+  font-size: 22pt;
+  color: #383F51;
+  margin-top: -30px;
 }
 
 #description2 {
-  inline-size: 425px;
-  font-size: 12pt;
-  font-family: "Noto Sans TC", sans-serif;
+  font-size: 15pt;
+  color: #383F51;
+  width: 30%;
+  margin: 0 auto;
+  line-height: 30px;
 }
 
 #allButtons {
-  float: left;
-  padding-top: 0.5em;
-  text-transform: lowercase;
+  padding-top: 3.5em;
 }
 
 #button {
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  position: relative;
 
-  width: 9.5em;
-  height: 2.2em;
+  width: 200px;
   margin: 10px;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
-  font-family: "Oxygen Mono", monospace;
-  font-size: 19px;
+  font-size: 15px;
   text-align: center;
-  text-transform: lowercase;
+  font-weight: 600;
 
-  border: 0.5px solid white;
-  box-shadow: 5px 4px 5px #5d7fed;
+  border: 2px solid #a7e1f7;
+  border-radius: 8px;
 
-  background: #f1f4ff;
+  background: #a7e1f7;
+  color: black;
 }
 
 #button:hover {
-  border: 2px solid #5d7fed;
-  box-shadow: 10px 10px 10px #5d7fed;
-  width: 10.2em;
-  height: 2.7em;
-  font-size: 22px;
-  font-weight: bold;
+  background: ghostwhite;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #176f85;
+  border: 2px solid #9BD1E5;
 }
+
 #button:active {
   position: relative;
   top: 1px;

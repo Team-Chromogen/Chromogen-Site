@@ -5,7 +5,7 @@ export default function MyApp({ Component, pageProps }) {
     <div>
       <style>
         @import
-        url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Open+Sans&family=Oxygen+Mono&family=PT+Mono&family=Palanquin&family=Roboto:wght@300;400&family=VT323&display=swap');
+        url('https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet');
       </style>
       <Component {...pageProps} />
     </div>

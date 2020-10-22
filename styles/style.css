@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
-  color: white;
-  font-family: "Palanquin", sans-serif;
+  color: #383F51;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-}
-
-#all {
+  font-family: "Inter", monospace;
+  background: ghostwhite;
+  margin: 0;
+  padding: 0;
 }

@@ -22,15 +22,13 @@ export default class Homepage extends Component {
               <li>
                 <a>
                   <img
-                    src="/chromogen-logo.png"
+                    src="/chromogen-logo-white.png"
                     id={styles.logo}
                     alt="Chromogen Logo"
                     onClick={this.scrollToTop}
                   ></img>
                 </a>
               </li>
-
-              <h1 id={styles.title}> &nbsp;Chromogen &nbsp;&nbsp;</h1>
             </ul>
 
             <ul id={styles.rightNav}>
@@ -69,6 +67,7 @@ export default class Homepage extends Component {
         <Element id={styles.features} name="features">
           <Features />
         </Element>
+        <hr id={styles.hr}></hr>
         <Element id={styles.team} name="team">
           <Team />
         </Element>
@@ -76,21 +75,3 @@ export default class Homepage extends Component {
     );
   }
 }
-
-/*
-<li id={styles.navItem}>
-<a
-  href="https://github.com/open-source-labs/Chromogen"
-  target="_blank"
->
-  <AiOutlineGithub />
-</a>
-</li>
-<li id={styles.navItem}>
-<a
-  href="https://chrome.google.com/webstore/detail/chromogen/cciblhdjhpdbpeenlnnhccooheamamnd?hl=en-US"
-  target="_blank"
->
-{<AiFillChrome />}
-</a>
-</li>*/
