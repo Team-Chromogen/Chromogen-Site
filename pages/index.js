@@ -5,7 +5,7 @@ import Team from "../components/Team";
 import styles from "../components/css-modules/Navbar.module.css";
 import { IconContext } from "react-icons";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
-
+ 
 export default class Homepage extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
