@@ -3,7 +3,6 @@ import Main from "../components/Main";
 import Features from "../components/Features";
 import Team from "../components/Team";
 import styles from "../components/css-modules/Navbar.module.css";
-import { AiOutlineGithub, AiFillChrome } from "react-icons/Ai";
 import { IconContext } from "react-icons";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 
